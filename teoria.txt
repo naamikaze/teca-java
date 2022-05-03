@@ -1,0 +1,42 @@
+El conjunto es una estructura que nos permite guardar elementos:
+ 
+Sin que se repitan
+Los elementos no tienen un orden
+permite conocer si un elemento dado se encuentra o pertenece a la estructura 
+
+Agregar. El conjunto debe estar inicializado
+Sacar. Siempre que el conjunto no esté vacío
+Elegir. Siempre que el conjunto no esté vacío
+Pertenece. Para conocer si un elemento está en el conjunto.
+Conjunto vacío. Indica si el conjunto tiene elementos.
+Inicializar Conjunto. Inicializa la estructura
+
+COLA PRIORIDAD
+Suponemos que la prioridad es igual al elemento, para simplificar la explicación. El desplazamiento es a derecha, por lo cual empezamos desde la derecha
+
+
+Un tipo de dato abstracto (TDA) es un conjunto de datos u objetos creado de manera personalizada por un programador para un fin específico.
+
+
+[11:04 a. m., 3/5/2022] Nach Rodríguez: l conjunto es una estructura que nos permite guardar elementos:
+ 
+Sin que se repitan
+Los elementos no tienen un orden
+permite conocer si un elemento dado se encuentra o pertenece a la estructura 
+
+Agregar. El conjunto debe estar inicializado
+Sacar. Siempre que el conjunto no esté vacío
+Elegir. Siempre que el conjunto no esté vacío
+Pertenece. Para conocer si un elemento está en el conjunto.
+Conjunto vacío. Indica si el conjunto tiene elementos.
+Inicializar Conjunto. Inicializa la estructura
+
+COLA PRIORIDAD
+Suponemos que la prioridad es igual al elemento, para simplificar la explicación. El desplazamiento es a derecha, por lo cual empezamos desde la derecha
+[11:04 a. m., 3/5/2022] Nach Rodríguez: Pila: La pila es una secuencia de elementos del mismo tipo en la que el acceso a la misma se realiza por un único lugar denominado cima: Vemos como el acceso a los elementos de la pila se realiza siempre sobre un único extremo.
+[11:04 a. m., 3/5/2022] Nach Rodríguez: Cola: Una cola (también llamada fila) es una estructura de datos, caracterizada por ser una secuencia de elementos en la que la operación de inserción push se realiza por un extremo y la operación de extracción pull por el otro.
+
+Conjuntos: Un conjunto es una interfaz de colección que almacena listas desordenadas y no permite el almacenamiento de entidades duplicadas. Matemáticamente, la interfaz del conjunto tiene tres propiedades. Los elementos del Conjunto no son nulos. No hay dos elementos en el Conjunto que puedan ser iguales.
+
+diccionarios: Dictionary en Java es una clase abstracta en Java que almacena los datos en forma de pares clave-valor. Se encuentra en el java. util paquete y funciona similar a un Mapa. Cada clave tiene un valor y podemos recuperar los valores en un objeto Diccionario usando su clave correspondiente.
+[11:08 a. m., 3/5/2022] Nach Rodríguez: primero valor y despues prioridad
