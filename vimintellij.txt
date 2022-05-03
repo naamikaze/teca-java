@@ -1,0 +1,17 @@
+click derecho build path
+
+
+intelij file structure
+
+""Comandos proopios
+set number
+set relativenumber
+imap jk <Esc>
+let mapleader = " "
+nmap <leader>q :q<CR>
+nmap <leader>w :w<CR>
+nnoremap <A-q> :bp<CR>
+nnoremap <A-w> :bn<CR>
+nnoremap <A-j> 10<C-e>
+nnoremap <A-k> 10<C-y>
+
