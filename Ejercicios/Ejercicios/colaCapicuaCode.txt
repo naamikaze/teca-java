@@ -1,0 +1,27 @@
+public static boolean esCapicua(ColaTDA c) {
+	PilaTDA p=new PilaTF();
+	p.inicializarPila();
+
+	ColaTDA caux=new ColaPU();
+	caux.inicializarCola();
+
+	int cont=0;
+
+	while(!c.colaVacia()) {
+		p.apilar(c.primero());caux.acolar(c.primero());
+		c.desacolar();cont++;
+	}
+
+	copiar(caux,c);
+
+	int mitad=cont/2;
+
+	while(!caux.colaVacia() && mitad > 0 && caux.primero()==p.tope() ) {
+	caux.desacolar();p.desapilar();
+	mitad--;
+
+	}
+
+	return cont > 0 && mitad==0 ;
+
+}

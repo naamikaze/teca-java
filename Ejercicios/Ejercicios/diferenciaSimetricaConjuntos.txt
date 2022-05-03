@@ -1,0 +1,26 @@
+public static ConjuntoTDA diferenciaSimetrica(ConjuntoTDA a, ConjuntoTDA b) {
+	ConjuntoTA aux1= new ConjuntoTA();
+	aux1.inicializarConjunto();
+
+	ConjuntoTA aux2= new ConjuntoTA();
+	aux2.inicializarConjunto();
+
+	ConjuntoTA aux3= new ConjuntoTA();
+	aux3.inicializarConjunto();
+
+	copiar(a,aux1); //funcion copiar conjuntos
+	copiar(b,aux3);
+
+	while(!aux1.conjuntoVacio()) {
+		int e=aux1.elegir();
+		if (b.pertenece(e)) 
+	 		aux3.sacar(e);
+		else
+			aux2.agregar(e);
+		aux1.sacar(e);
+
+	}
+
+	return union(aux2,aux3); //funcion union conjuntos
+
+}

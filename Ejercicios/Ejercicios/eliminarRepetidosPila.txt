@@ -1,0 +1,23 @@
+	public void eliminarRepetidos(PilaTDA p) {
+		PilaTDA aux = new PilaLD();
+		aux.inicializarPila();
+
+		ConjuntoTDA c = new ConjuntoLD();
+		
+		while(!p.pilaVacia()) {
+			int tope = p.tope();
+			if(!c.pertenece(tope)) {
+				aux.apilar(tope);
+				c.agregar(tope);
+			}
+
+			p.desapilar();
+
+		}
+
+		while(!aux.pilaVacia()) {
+			p.apilar(aux.tope());
+			aux.desapilar();
+
+		}
+	}
